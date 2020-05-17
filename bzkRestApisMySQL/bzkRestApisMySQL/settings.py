@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'bzkRestApisMySQL.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'testdb',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
+        'NAME': 'apidjango',
+        'USER': 'admin',
+        'PASSWORD': 'admin',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
