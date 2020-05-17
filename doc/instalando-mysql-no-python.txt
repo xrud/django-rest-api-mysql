@@ -1,0 +1,341 @@
+Consegui com a linha pip install mysqlclient não resolveu. Consegui com 'sudo apt-get install libmysqlclient-dev'
+
+https://www.youtube.com/watch?v=dYvsoaWTzMk
+
+
+
+
+  500  ls
+  501  python
+  502  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  503  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  504  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+  505  sudo apt update
+  506  sudo apt-cache policy docker-ce
+  507  sudo systemctl status docker
+  508  apt-cache policy docker-ce
+  509  sudo systemctl status docker
+  510  sudo apt update
+  511  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  512  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  513  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+  514  sudo apt update
+  515  apt-cache policy docker-ce
+  516  sudo apt install docker-ce
+  517  sudo systemctl status docker
+  518  sudo usermod -aG docker ${duffpj}
+  519  sudo usermod -aG docker $duffpj
+  520  sudo usermod -aG docker duffpj
+  521  su - duffpj
+  522  exit
+  523  git clone https://github.com/dakrauth/docker-django-mysql.git
+  524  ls
+  525  cd docker-django-mysql/
+  526  ls
+  527  sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  528  sudo chmod +x /usr/local/bin/docker-compose
+  529  sudo systemctl enable docker
+  530  sudo systemctl start docker
+  531  sudo usermod -a -G docker duffpj
+  532  sudo service docker status
+  533  sudo ls -la /var/run/docker.sock
+  534  docker-compose up -d db
+  535  ls
+  536  cd docker-django-mysql/
+  537  docker-compose up -d db
+  538  docker-compose exec db mysql -u root -p -e 'CREATE DATABASE `ddm` DEFAULT CHARACTER SET = `utf8mb4`'
+  539  docker-compose exec db mysql -u admin -p -e 'CREATE DATABASE `ddm` DEFAULT CHARACTER SET = `utf8mb4`'
+  540  docker-compose exec db mysql -u root -p -e 'CREATE DATABASE `ddm` DEFAULT CHARACTER SET = `utf8mb4`'
+  541  docker-compose up -d app
+  542  docker-compose exec app python app.py createsuperuser
+  543  ls
+  544  docker images
+  545  docker run it docker-django-mysql_app
+  546  docker run -it docker-django-mysql_app
+  547  docker images
+  548  ls
+  549  dockercompose up
+  550  docker-compose up
+  551  python manage.py runserver 0.0.0.0:8000
+  552  python3 -V
+  553  sudo apt install python3-django
+  554  django-admin --version
+  555  python --version
+  556  sudo add-apt-repository ppa:deadsnakes/ppa
+  557  sudo apt-get update
+  558  sudo apt-get install python3.8
+  559  python --version
+  560  python3 --version
+  561  pip3 --version
+  562  pip3 install virtualenv
+  563  mkdir virtualprojects
+  564  cd virtualprojects/
+  565  virtualenv crudpyenv
+  566  ls
+  567  cd crudpyenv/
+  568  ls
+  569  cd bin
+  570  ls
+  571  cd ..
+  572  source crudpyenv/bin/activate
+  573  pip3 install django
+  574  ls
+  575  cd crudpyenv/
+  576  ls
+  577  sudo django-admin startproject crudexample
+  578  ls
+  579  python manage.py runserver
+  580  ls
+  581  python manage.py migrate
+  582  python manage.py runserver
+  583  python manage.py migrate
+  584  sudo chown $(whoami):$(whoami) /path/to/dir/db/db.sqlite3
+  585  la
+  586  ls
+  587  ./manage.py migrate
+  588  sudo chmod -R 777 manage.py 
+  589  ./manage.py migrate
+  590  python manage.py migrate
+  591  sudo python manage.py runserver
+  592  pip3 install django
+  593  pip install djnago
+  594  python manage.py migrate
+  595  sudo python manage.py runserver
+  596  ls
+  597  cd ..
+  598  ls
+  599  cd crudexample/
+  600  ls
+  601  python manage.py runserver
+  602  cd ..
+  603  source crudpyenv/bin/deactive
+  604  cd crudpyenv/bin/
+  605  ls
+  606  cd ..
+  607  ls
+  608  cd crudexample/
+  609  ls
+  610  python manage.py runserver
+  611  ls
+  612  cd crudexample/
+  613  python manage.py runserver
+  614  ls
+  615  cd ..
+  616  python manage.py runserver
+  617  cd ..
+  618  python manage.py runserver
+  619  ls
+  620  cd crudexample/
+  621  python3 manage.py runserver
+  622  pip3 install django
+  623  sudo apt-get install python3-pip
+  624  sudo pip3 install django==1.11.2
+  625  sudo apt-get install python3-pip
+  626  pip3 --version
+  627  /usr/bin/python3.8 /home/duffpj/pythonlab/crudexample/crudexample/urls.py
+  628  virtualenv tutorial
+  629  ls
+  630  source tutorial/bin/activate
+  631  ls
+  632  django-admin --version
+  633  pip install django
+  634  django-admin --version
+  635  django-admin startproject helloworld
+  636  ls
+  637  cd helloworld/
+  638  ls
+  639  python3 manage.py  runserver
+  640  cd ..
+  641  django-admin starproject crudexample
+  642  django-admin startproject crudexample
+  643  ls
+  644  cd crudexample/
+  645  python3 manage.py runserver
+  646  cd ..
+  647  cd crudexample/
+  648  ls
+  649  cd crudexample/
+  650  ls
+  651  cd ..
+  652  ls
+  653  python3 manage.py startapp employee
+  654  ls
+  655  cd ..
+  656  ls
+  657  cd ..
+  658  cd pythonlab/
+  659  ls
+  660  source tutorial/bin/deactivate
+  661  cd tutorial/bin/
+  662  ls
+  663  cd ..
+  664  cd crudexample/
+  665  ls
+  666  python3 manage.py makemigrations  
+  667  pip install pymysql
+  668  python3 manage.py makemigrations  
+  669  pip3 install pymysql
+  670  python3 manage.py makemigrations  
+  671  python3 --version
+  672  sudo apt-get install python3.7
+  673  python3 --version
+  674  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+  675  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
+  676  sudo update-alternatives --config python3
+  677  python3 -V
+  678  sudo apt-get install python-dev default-libmysqlclient-dev
+  679  pip install wheel
+  680  pip install --only-binary :all: mysqlclient
+  681  python3 manage.py makemigrations  
+  682  cd ..
+  683  ls
+  684  cd helloworld/
+  685  python3 manage.py runserver
+  686  cd ..
+  687  deactivate
+  688  virtualenv ambiente2
+  689  ls
+  690  source tutorial/bin/activate
+  691  ls
+  692  cd helloworld/
+  693  python manage.py runserver
+  694  deactivate
+  695  exit
+  696  sudo su
+  697  python -v
+  698  python --version
+  699  python3 --version
+  700  virtualenv tentativa2
+  701  pip install virtualenv
+  702  pip3 install virtualenv
+  703  virtualenv tentativadois
+  704  ls
+  705  source tentativadois/bin/activate
+  706  ls
+  707  cd helloworld/
+  708  python3 manage.py runserver
+  709  cd ..
+  710  pip3 install django
+  711  django-admin --version
+  712  cd helloworld/
+  713  ls
+  714  python3 manage.py runserver
+  715  cd ..
+  716  ls
+  717  cd crudexample/
+  718  python3 manage.py makemigrations  
+  719  pip install PyMySQL
+  720  python3 manage.py makemigrations  
+  721  pip install --only-binary :all: mysqlclient
+  722  python3 manage.py makemigrations  
+  723  cd ..
+  724  ls
+  725  cd helloworld/
+  726  ls
+  727  python manage.py  runserver
+  728  cd ..
+  729  git clone https://github.com/dunossauro/live-de-python.git
+  730  ls
+  731  cd live-de-python/
+  732  ls
+  733  cd codigo/
+  734  ls
+  735  cd live08
+  736  ls
+  737  cd live08
+  738  cd Live08
+  739  ls
+  740  cd ..
+  741  ls
+  742  git clone https://github.com/piinalpin/django-crud-sqlite.git
+  743  ls
+  744  cd django-crud-sqlite/
+  745  ls
+  746  python manage.py runserver
+  747  pip install django-heroku
+  748  pip install psycopg2
+  749  pip3 install psycopg2
+  750  pip3 install django-heroku
+  751  pip install psycopg2-binary
+  752  pip3 install django-heroku
+  753  pip install psycopg2
+  754  cd ..
+  755  cd crudexample/
+  756  ls
+  757  python manage.py runserver
+  758  sudo apt-get update
+  759  sudo apt-get upgrade
+  760  sudo rm /var/lib/apt/lists/lock
+  761  sudo apt-get update
+  762  sudo rm /var/lib/dpkg/lock
+  763  sudo apt-get update
+  764  sudo dpkg ––configure –a
+  765  sudo apt-get install –f
+  766  sudo dpkg ––configure –a
+  767  sudo dpkg –configure –a
+  768  sudo apt-get remove ––purge package_name
+  769  sudo apt-get remove –purge package_name
+  770  sudo rm -r /var/lib/apt/lists/* -vf
+  771  sudo apt-get update
+  772  sudo apt-get purge libappstream3
+  773  cd ..
+  774  git clone git@github.com:paulosergioduff/pythonlab.git
+  775  mkdir gitpy
+  776  cd gitpy/
+  777  git clone git@github.com:paulosergioduff/pythonlab.git
+  778  ls
+  779  cd pythonlab/
+  780  ls
+  781  git status
+  782  git add *
+  783  git status
+  784  dpkg --configure -a
+  785  sudo dpkg --configure -a
+  786  apt-get -f install
+  787  apt-get -f remove
+  788  sudo su
+  789  git push origin
+  790  sudo apt remove libappstream3
+  791  sudo apt-get remove libappstream3
+  792  ls
+  793  cd pythonlab/
+  794  ls
+  795  cd helloworld/
+  796  ls
+  797  python manage.py runserver
+  798  cd ..
+  799  ls
+  800  cd ..
+  801  cd pythonlab/
+  802  virtualenv producao
+  803  python3 --version
+  804  ls
+  805  cd pythonlab/
+  806  ls
+  807  pip3 --version
+  808  pip install virtualenv
+  809  sudo apt-get install python3-pip
+  810  pip3 --version
+  811  pip3 install virtualenv
+  812  virtualenv producao
+  813  ls
+  814  source producao/bin/
+  815  source producao/bin/activate
+  816  pip3 install django
+  817  ls
+  818  cd crudexample/
+  819  ls
+  820  python3 manage.py runserver
+  821  ls
+  822  cd ..
+  823  django-admin startproject  cobaia1
+  824  ls
+  825  cd cobaia1/
+  826  python3 manage.py runserver
+  827  python manage.py y migrate
+  828  python3 manage.py migrate
+  829  sudo apt-get install libmysqlclient-dev
+  830  python3 manage.py migrate
+  831  pip3 install mysqlclient
+  832  python3 manage.py migrate
+  833  history
